@@ -1,0 +1,105 @@
+/* .a {
+    background-color: brown;
+    color: white;
+} */
+
+/* background color for element selector */
+
+
+/* .t{
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+} */
+/* Font style for element selector */
+
+/* #r{
+    font-size: 25px;
+} */
+/* id selector  */
+
+/* .e{
+    font-weight: bolder; 
+} */
+/* style for element selector  */
+
+
+/* *{
+    text-align: center;
+    background-color: red;
+    background-image: url('Student.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+} */
+ /* Universal Selector */
+
+
+/* .b,.n,.m{
+    color: blue;
+    text-transform: uppercase;
+} */
+/* Joint selector style */
+
+
+/* border line  */
+
+
+
+.solid{
+    border: 10px red;
+    border-left-style: solid;
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+}
+
+
+
+
+
+.dotted{
+    border: 5px dashed blue
+}
+/* border style: dotted; */
+
+.dashed{
+    border: 5px dashed red  ;
+}
+/* border srtle dashed; */
+
+.double{
+    border-style: dotted;
+}
+/* border style double */
+
+.groove{
+    border-style: groove;
+}
+/* border style groove */
+
+.inset{
+    border-style: inset;
+}
+/* border style groove */
+
+.outset{
+    border-style: outset;
+}
+/* border style outset */
+
+.ridge{
+    border-style: ridge;
+}
+/* border style ridge */
+
+.hidden{
+    border-style: hidden;
+}
+
+.none{
+    border-style: none;
+}
+
+*{
+    background-image: url(Student.jpg);
+}

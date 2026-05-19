@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .grid-container{
+        background-color: blue;
+        padding: 20px 30px 0;
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        /* grid template-columns: 300px 300px 300px; */
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        /* grid columns: 1fr 1fr 1fr */
+    }
+
+    .grid-item{
+        background-color: purple;
+        padding: 20px;
+        border:1px solid red;
+    
+    }
+
+    .container{
+        box-sizing: border-box;
+        padding: 20px;
+        display: grid;
+        grid-template-columns:  3fr 3fr 3fr;
+        grid-template-rows: 100px;
+        margin: 30px
+    }
+
+    img{
+        width: 200px;
+        height: auto;
+        border-radius: 5px;   
+    }
+
+    .grid{
+        padding: 10px;
+    }
+    
+    h2{
+        padding: 25px 0 25px 0;
+    }
+
+    .a{
+        text-align: center;
+        /* paddlign: 30px */
+        margin: 90px 0 0px 0;
+    }
+
+    .c{
+        box-sizing: border-box;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-row: 100px;
+        margin: 30px;
+        text-align: center;
+    }
+
+    
+
+
+</style>
+</head>
+<body>
+    
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+
+
+    <!-- class sextion -->
+
+    <div class="a">
+        <h3>OUR SERVICES TO ACHIEVE YOUR GOALS</h3>
+        <h1 class="b">Effective Growth Strategies, <br> Converting Websites & Online<br> Marketing.</h1>
+    </div>
+    <!-- Using the grid -->
+    
+    
+    <div class="c">
+        <div class="d"></div>
+        <div class="d">
+            <h3>OUR SERVICES TO ACHIEVE YOUR GOALS</h3>
+            <h1>Effective Growth Strategies, Converting websites & Online Marketing</h1>
+        </div>
+        <div class="d"></div>
+        
+    </div>
+
+
+    <div class=" container">
+        <div class="grid">
+                <img src="wawa.jpg" alt="image">
+                <h2> Web Design and Development</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quo?</p>
+        </div>
+
+
+        <div class="grid">
+            <img src="wawa.jpg" alt="image">
+            <h2> Web Design and Development</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quo?</p>
+    </div>
+        <div class="grid">
+            <img src="wawa.jpg" alt="image">
+            <h2> Web Design and Development</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quo?</p>
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+        /* Element Selector */
+        table{
+            background-color: black;
+            color: white;
+        }
+
+        /* ID Selector */
+        #a{
+            font-size: 25px;
+        }
+        
+/* Class Selector */
+        .b{
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+/* Universal selector */
+        *{
+            text-align: center;
+            background-color: red;
+        }
+
+/* Grouping Selector */
+.i,.c,#d{
+    color: blue;
+    text-transform: uppercase;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOBAL CHRONICLES</title>
+    <!-- Link to the CSS file for styling -->
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <!-- Header section with logo and navigation links -->
+    <header>
+        <div class="logo">
+            <h1>GLOBAL CHRONICLES</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" id="home-link">Home</a></li>
+                <li><a href="#" id="new-post-link">New Post</a></li>
+                <li><a href="#" id="categories-link">Categories</a></li>
+                <li><a href="#" id="about-link">About</a></li>
+                <li><a href="#" id="contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main content area -->
+    <main>
+        <!-- Home section to display featured and latest posts -->
+        <section id="home" class="content">
+            <h2>Featured Articles</h2>
+            <div id="featured"></div>
+            <h2>Latest Posts</h2>
+            <div id="posts"></div>
+        </section>
+        
+        <!-- Section to create a new post -->
+        <section id="new-post" class="content" style="display:none;">
+            <h2>Create a New Post</h2>
+            <form id="post-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="content" placeholder="Content" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <!-- Section to display categories -->
+        <section id="categories" class="content" style="display:none;">
+            <h2>Categories</h2>
+            <div id="category-list"></div>
+        </section>
+        <!-- About section -->
+        <section id="about" class="content" style="display:none;">
+            <h2>About Us</h2>
+            <p>Welcome to GLOBAL CHRONICLES, a platform to share your thoughts and ideas.</p>
+        </section>
+        <!-- Contact section -->
+        <section id="contact" class="content" style="display:none;">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please email us at contact@globalchronicles.com.</p>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 GLOBAL CHRONICLES. All rights reserved.</p>
+    </footer>
+    <!-- Link to the JavaScript file for interactivity -->
+    <script src="blog.js"></script>
+</body>
+</html>
